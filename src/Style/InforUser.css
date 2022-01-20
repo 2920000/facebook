@@ -1,0 +1,8 @@
+:root{
+    --mainColor:rgba(240,242,245,1);
+    --boxShadow:rgb(194, 194, 194);
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}

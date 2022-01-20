@@ -1,0 +1,79 @@
+:root {
+    --primary:#1877f2;
+    --secondary:#f0f2f5;
+    --gray:#65676b;
+}
+
+*{
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+.container{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+   margin-top: 180px;
+    
+}
+h2{
+    color: var(--primary);
+    font-size: 60px;
+}
+.title-login p {
+    font-size: 25px;
+}
+.form-login{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px grey;
+    row-gap: 10px;
+}
+input{
+    height: 50px;
+    width: 360px;
+    font-size: 15px;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    background-color: #ffffff;
+     outline-color: var(--primary);
+     outline-width: thin;
+   
+}
+.btn-dangky{
+    height: 45px;
+    box-sizing:10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--primary);
+    margin:5px 0 20px 0;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.btn-dangky:hover{
+    opacity: 0.9;
+}
+.question{
+    background-color: #ffffff;
+    text-align: center;
+}
+.btn-dk-dn{
+    background-color: #ffffff;
+
+}
+.show-hide-password{
+    position: relative;
+    top: -45px;
+    left: 310px;
+    cursor: pointer;
+}
+.show-hide{
+    font-size: 15px;
+}
